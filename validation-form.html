@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+
+    <title>Sign Up</title>
+</head>
+<body style="background-image: url('bg.jpg'); background-size: cover;">
+
+   
+<div class="outer-con" style="height: 620px; width: 100%; margin-top:100px;">
+<form class="needs-validation" novalidate>
+
+
+<div id="container" class="container row p-2" style="background-color: rgba(255, 127, 77, 0.486);" >
+
+  <div class="col-12 mb-4"> 
+    <h1 class="text-center" style="color:aliceblue"><b>Create Account</b></h1>
+  </div>
+
+  
+
+<div class="form-floating mb-3 col-sm-6">
+
+    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" required>
+    <label for="firstname" class="form-label text-muted">Enter First Name</label>
+    <div class="valid-feedback">Good to go! </div>
+    <div class="invalid-feedback">>Enter Valid First Name</div>
+
+</div>
+
+
+<div class="form-floating col-sm-6 mb-3">
+
+    
+    <input type="text" class="form-control" id="surname" placeholder="Enter Surname" required>
+    <label for="surname" class="form-label text-muted">Enter Surname</label>
+    <div class="valid-feedback">Good to go! </div>
+    <div class="invalid-feedback">Enter Valid Surname</div>
+
+
+</div>
+
+
+<div class="form-floating col-sm-6 mb-3">
+
+  
+  <input type="date" class="form-control" id="birthday" placeholder="Enter Birthday" required>
+  <label for="birthday" class="form-label">Enter Birthday</label>
+  <div class="valid-feedback">Good to go! </div>
+  <div class="invalid-feedback">Enter Valid Birthday</div>
+
+</div>
+
+<div class="col-sm-6 form-group text-light my-3">
+
+  <label>Gender:</label>
+  <label class="radio-inline"> <input type="radio"  name="gender" required>Male</label> 
+  <label class="radio-inline"><input type="radio" name="gender" required>Female</label>
+  <label class="radio-inline"><input type="radio" name="gender" required>Rather Not Say</label>
+  <div class="valid-feedback">Good to go! </div>
+  <div class="invalid-feedback">Enter Valid Gender</div>
+
+</div>
+
+
+<div class="form-floating mb-3 col-sm-6">
+
+  <input type="text" class="form-control" id="religion" placeholder="Enter Full Address (Optional)">
+  <label for="Address" class="form-label text-muted">Enter Full Address (Optional)</label>
+  <div class="valid-feedback">Good to go! </div>
+  
+</div>
+
+
+<div class="form-floating col-sm-6 mb-3">
+
+  
+  <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
+  <label for="username" class="form-label text-muted">Enter Username</label>
+  <div class="valid-feedback">Good to go! </div>
+  <div class="invalid-feedback">Enter Valid Username</div>
+
+
+</div>
+
+<div class="form-floating col-sm-6 mb-3">
+
+  
+  <input type="email" class="form-control" id="email" placeholder="Enter E-mail" required>
+  <label for="email" class="form-label text-muted">Enter E-mail</label>
+  <div class="valid-feedback">Good to go! </div>
+  <div class="invalid-feedback">Enter Valid E-mail</div>
+
+
+</div>
+
+<div class="form-floating col-sm-6 mb-3">
+
+ 
+  <input type="tel" class="form-control" id="phone" placeholder="Enter Phone Number" required>
+  <label for="phone" class="form-label text-muted">Enter Phone Number</label>
+  <div class="valid-feedback">Good to go! </div>
+  <div class="invalid-feedback">Enter Valid Phone Number</div>
+
+
+</div>
+
+<div class="form-floating col-sm-6 mb-3">
+
+  
+  <input type="password" class="form-control" id="pass" placeholder="Enter Password" required>
+  <label for="pass" class="form-label text-muted"> Enter Password</label>
+  <div class="valid-feedback">Good to go! </div>
+  <div class="invalid-feedback">Enter Valid Password</div>
+
+
+</div>
+
+<div class="form-floating col-sm-6 mb-3">
+
+  
+  <input type="password" class="form-control" id="pass" placeholder="Enter Password" required>
+  <label for="pass" class="form-label text-muted"> Enter Password Again</label>
+  <div class="valid-feedback">Good to go! </div>
+  <div class="invalid-feedback">Enter Valid Password</div>
+
+
+</div>
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+<div class="row">
+
+<div class="col-1 d-flex justify-content-end">
+  <input type="checkbox" class="form-check-input" id="agree" required>
+</div>
+
+<div class="col d-flex justify-content-start">
+  <p>By checking the box, I read and I agree that this website will collect some of my personal information.</p>
+</div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+
+<div class="col-12 d-flex justify-content-center">
+<button type="submit" class="btn btn-primary btn-warning fw-bold">Sign Up!</button> 
+</div>
+
+
+
+
+
+</div>
+</form>
+</div>
+
+
+
+<script>
+
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+  
+  
+  
+  </script>
+
+
+    
+</body>
+</html>
